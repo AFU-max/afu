@@ -156,9 +156,9 @@
     max-width: 400px;
 }
 
-.slider-item.slick-center img {
+/* .slider-item.slick-center img {
     max-width: 470px;
-}
+} */
 
 .slider {
     position: relative;
