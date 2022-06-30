@@ -25,11 +25,23 @@
     border: 1.5px solid rgba(255, 255, 255, 0.3);
     border-color: blue;
 }
+.img-left {
+    padding: 0 0 0 -200px;
+}
 
+@media (min-width: 1000px) {
+    .img-left {
+        display: none;
+    }
+}
 .img {
     padding: 0 10px 0 80px;
 }
-
+@media (max-width: 1000px) {
+    .img {
+        display: none;
+    }
+}
 #hero {
     width: 100%;
     height: 100vh;
